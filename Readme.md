@@ -69,3 +69,22 @@ Le script inclut une vérification automatique qui :
 
 * Vérifie que chaque mise à jour a bien été appliquée
 * Affiche un message de confirmation ou d'erreur pour chaque employé traité
+
+## Justification des outils choisis
+
+  ### Python 
+  
+    * Python est un langage polyvalent, souvent utilisé en Data Engineering.
+
+    Il dispose de bibliothèques robustes comme pandas pour la manipulation de fichiers CSV et psycopg2 ou mysql-connector-python pour interagir avec les bases de données relationnelles.
+
+    Il permet une lecture claire, une écriture rapide et une bonne maintenabilité.
+    Pandas
+
+    * Pandas:
+
+        Pandas est la bibliothèque Python de référence pour manipuler des fichiers tabulaires comme les CSV.
+
+    * mysql-connector-python
+      
+       C’est une bibliothèque officielle développée par Oracle pour connecter des applications Python à une base de données MySQL.
