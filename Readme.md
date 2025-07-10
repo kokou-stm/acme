@@ -17,7 +17,7 @@ Ce projet met à jour les numéros de série des badges employés dans la base d
 1. Clonage du repository
 
  ```bash
- $ git clone
+ $ git clone https://github.com/kokou-stm/acme.git
 ```
 Aller dans le dossier et creer un environnement virtuel
 
