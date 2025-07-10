@@ -7,7 +7,6 @@ Ce projet met à jour les numéros de série des badges employés dans la base d
 ##  Outils qui doivent etre préinstallés
 
 - Python 3
-- MySQL
 - Docker 
 
 ##  Installation
