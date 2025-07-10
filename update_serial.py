@@ -17,6 +17,9 @@ cursor = conn.cursor()
 
 # Boucle pour parcourir les lignes du CSV et appliquer le update
 for _, row in df.iterrows():
+    
+    if pd.isnull(row["employee_id"]) or pd.isnull(row["serial_number"]):
+        continue  
     employee_id = int(row["employee_id"])
     new_serial = str(row["serial_number"])
 
